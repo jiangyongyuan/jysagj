@@ -1,36 +1,37 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-  <title>���ӷ���-ʫ������ĸӤ����</title><meta name='keywords' content='���ӷ���'><meta name='description' content='���ӷ���'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+  <title>月子服务-诗安国际母婴会所</title><meta name='keywords' content='月子服务'><meta name='description' content='月子服务'>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <!--[if IE 6]><script type="text/javascript">try{document.execCommand('BackgroundImageCache',false,true);}catch(e){}</script><![endif]-->
 </head>
 
 <body>
-<!--ͷ��-->
-<script type="text/javascript"><!--����-->
-//���õ�ǰƵ��
+<!--头部-->
+<script type="text/javascript"><!--导航-->
+//设置当前频道
 var def="1";
 
 function mover(object){
 
-	//���˵�
+	//主菜单
 	var mm=document.getElementById("m_"+object);
 	mm.className="m_li_a";
 	
-	//��ʼ���˵�������Ч��
+	//初始主菜单先隐藏效果
 	if(def!=0){
 		var mdef=document.getElementById("m_"+def);
 		mdef.className="m_li";
 	}
 	
-	//�Ӳ˵�
+	//子菜单
 	var ss=document.getElementById("s_"+object);
 	ss.style.display="block";
 	
-	//��ʼ�Ӳ˵�������Ч��
+	//初始子菜单先隐藏效果
 	if(def!=0){
 		var sdef=document.getElementById("s_"+def);
 		sdef.style.display="none";
@@ -40,21 +41,21 @@ function mover(object){
 
 function mout(object){
 
-	//���˵�
+	//主菜单
 	var mm=document.getElementById("m_"+object);
 	mm.className="m_li";
 	
-	//��ʼ���˵���ԭЧ��
+	//初始主菜单还原效果
 	if(def!=0){
 		var mdef=document.getElementById("m_"+def);
 		mdef.className="m_li_a";
 	}
 	
-	//�Ӳ˵�
+	//子菜单
 	var ss=document.getElementById("s_"+object);
 	ss.style.display="none";
 	
-	//��ʼ�Ӳ˵���ԭЧ��
+	//初始子菜单还原效果
 	if(def!=0){
 		var sdef=document.getElementById("s_"+def);
 		sdef.style.display="block";
@@ -65,59 +66,59 @@ function mout(object){
 
 <div class="header">
 <div class="head">
-<a href="index.html" class="logo"><img src="images/logo.jpg" alt="LOGO" title="ʫ������ĸӤ����" /></a>
+<a href="index.html" class="logo"><img src="images/logo.jpg" alt="LOGO" title="诗安国际母婴会所" /></a>
 <!--logo-->
 <div class="head_right">
 <div class="tit">
 <!--beian-->
-<div class="tel">18172912727</div>
+<div class="tel">18824661554</div>
 <!--tel-->
 <br class="clear" /></div>
 <!--tit-->
 <div id="menu">
 <ul>
-<li id="m_1" class='m_li_a'><a href="index.html">��ҳ</a></li>
-<li id="m_2" class='m_li' onmouseover='mover(2);' onmouseout='mout(2);'><a href="showpage_id=1&nid=7&pnid=7.html">��˾���</a></li>				
-<li id="m_3" class='m_li' onmouseover='mover(3);' onmouseout='mout(3);'><a href="showpage_id=5&nid=6&pnid=6.html">���ӻ���</a></li>				
-<li id="m_4" class='m_li' onmouseover='mover(4);' onmouseout='mout(4);'><a href="showpage_id=9&nid=5&pnid=5.html">����ָ�</a></li>				
-<li id="m_5" class='m_li' onmouseover='mover(5);' onmouseout='mout(5);'><a href="showpage_id=10&nid=4&pnid=4.html">��Ŀ��Ʒ</a></li>			
-<li id="m_6" class='m_li' onmouseover='mover(6);' onmouseout='mout(6);'><a href="showpage_id=6&nid=3&pnid=3.html">ʫ�����Ӳ�</a></li>
-<li id="m_7" class='m_li' onmouseover='mover(7);' onmouseout='mout(7);'><a href="showpage_id=4&nid=2&pnid=2.html">�˲���Ƹ</a></li>
-<li id="m_8" class='m_li' onmouseover='mover(8);' onmouseout='mout(8);'><a href="showpage_id=2&nid=1&pnid=1.html">��ϵ����</a></li>
+<li id="m_1" class='m_li_a'><a href="index.html">首页</a></li>
+<li id="m_2" class='m_li' onmouseover='mover(2);' onmouseout='mout(2);'><a href="showpage_id?id=1&nid=7&pnid=7">公司简介</a></li>				
+<li id="m_3" class='m_li' onmouseover='mover(3);' onmouseout='mout(3);'><a href="showpage_id?id=5&nid=6&pnid=6">月子会所</a></li>				
+<li id="m_4" class='m_li' onmouseover='mover(4);' onmouseout='mout(4);'><a href="showpage_id?id=9&nid=5&pnid=5">产后恢复</a></li>				
+<li id="m_5" class='m_li' onmouseover='mover(5);' onmouseout='mout(5);'><a href="showpage_id?id=10&nid=4&pnid=4">项目产品</a></li>			
+<li id="m_6" class='m_li' onmouseover='mover(6);' onmouseout='mout(6);'><a href="showpage_id?id=6&nid=3&pnid=3">诗安月子餐</a></li>
+<li id="m_7" class='m_li' onmouseover='mover(7);' onmouseout='mout(7);'><a href="showpage_id?id=4&nid=2&pnid=2">人才招聘</a></li>
+<li id="m_8" class='m_li' onmouseover='mover(8);' onmouseout='mout(8);'><a href="showpage_id?id=2&nid=1&pnid=1">联系我们</a></li>
 </ul>
 </div><!--menu end-->
 <div class="subbox">
 <ul class="smenu">
 <li style="padding-left:141px;" id="s_2" class='s_li' onmouseover='mover(2);' onmouseout='mout(2);'>
-<a href="product_p=0&dir=3&nid=10&pnid=7.html">��˾����</a>
+<a href="product_id?p=0&dir=3&nid=10&pnid=7">公司资质</a>
 </li>
 <li style="padding-left:252px;" id="s_3" class='s_li' onmouseover='mover(3);' onmouseout='mout(3);'>
-<a href="product_p=0&dir=1&nid=16&pnid=6.html">������ʩ</a>
-<a href="showpage_id=5&nid=15&pnid=6.html">���ӷ���</a>
-<a href="showpage_id=6&nid=14&pnid=6.html">���Ӳ�</a>
-<a href="showpage_id=7&nid=13&pnid=6.html">ĸӤ����</a>
+<a href="product_id?p=0&dir=1&nid=16&pnid=6">环境设施</a>
+<a href="showpage_id?id=5&nid=15&pnid=6">月子服务</a>
+<a href="showpage_id?id=6&nid=14&pnid=6">月子餐</a>
+<a href="showpage_id?id=7&nid=13&pnid=6">母婴护理</a>
 </li>
 <li style="padding-left:362px;" id="s_4" class='s_li' onmouseover='mover(4);' onmouseout='mout(4);'>
-<a href="showpage_id=13&nid=19&pnid=5.html">��ǰ����</a>
-<a href="showpage_id=12&nid=18&pnid=5.html">���е���</a>
-<a href="showpage_id=11&nid=17&pnid=5.html">����ָ�</a>
+<a href="showpage_id?id=13&nid=19&pnid=5">产前调理</a>
+<a href="showpage_id?id=12&nid=18&pnid=5">孕中调理</a>
+<a href="showpage_id?id=11&nid=17&pnid=5">产后恢复</a>
 </li>
 <li style="padding-left:474px;" id="s_5" class='s_li' onmouseover='mover(5);' onmouseout='mout(5);'>
-<!--<a href="/index.php?s=/home/article/index/category/cqtl">��ǰ����</a>
-<a href="/index.php?s=/home/article/index/category/yztl">���е���</a>
-<a href="/index.php?s=/home/article/index/category/chhfq">����ָ�</a>-->
+<!--<a href="/index.php?s=/home/article/index/category/cqtl">产前调理</a>
+<a href="/index.php?s=/home/article/index/category/yztl">孕中调理</a>
+<a href="/index.php?s=/home/article/index/category/chhfq">产后恢复</a>-->
 </li>
 <li style="padding-left:407px;" id="s_6" class='s_li' onmouseover='mover(6);' onmouseout='mout(6);'>
-<a href="showpage_id=16&nid=26&pnid=3.html">Ӫ������</a>
-<a href="showpage_id=6&nid=25&pnid=3.html">���Ӳ�</a>
-<a href="showpage_id=17&nid=24&pnid=3.html">�л�ʳ��</a>
-<a href="showpage_id=18&nid=23&pnid=3.html">רҵ����</a>
+<a href="showpage_id?id=16&nid=26&pnid=3">营养评估</a>
+<a href="showpage_id?id=6&nid=25&pnid=3">月子餐</a>
+<a href="showpage_id?id=17&nid=24&pnid=3">有机食材</a>
+<a href="showpage_id?id=18&nid=23&pnid=3">专业厨房</a>
 </li>
 <li style="padding-left:407px;" id="s_7" class='s_li' onmouseover='mover(7);' onmouseout='mout(6);'>
-<!--<a href="javascript:;">���̼���</a>-->
+<!--<a href="javascript:;">招商加盟</a>-->
 </li>
 <li style="padding-left:407px;" id="s_8" class='s_li' onmouseover='mover(8);' onmouseout='mout(6);'>
-<!--<a href="javascript:;">��������</a>-->
+<!--<a href="javascript:;">联络我们</a>-->
 </li>
 </ul>
 </div>
@@ -130,7 +131,7 @@ function mout(object){
 <!--header-->
 
 
-<!--ͷ��-->
+<!--头部-->
 <div class="erji_banner"><img src="images/13.jpg" /></div>
 <!--erji_banner-->
 
@@ -138,19 +139,19 @@ function mout(object){
 <div class="guanyu_tit">
 <!--<a href="javascript:;"><<</a>-->
 <ul>
-   <a href="product_p=0&dir=1&nid=16&pnid=6.html" >����չʾ</a>
+   <a href="product_id?p=0&dir=1&nid=16&pnid=6" >环境展示</a>
 		
-   <a href="showpage_id=5&nid=15&pnid=6.html" >���ӷ���</a>
+   <a href="showpage_id?id=5&nid=15&pnid=6" >月子服务</a>
 		
-   <a href="showpage_id=6&nid=14&pnid=6.html" >���Ӳ�</a>
+   <a href="showpage_id?id=6&nid=14&pnid=6" >月子餐</a>
 		
-   <a href="showpage_id=7&nid=13&pnid=6.html" >ĸӤ����</a>
+   <a href="showpage_id?id=7&nid=13&pnid=6" >母婴护理</a>
 		</ul>
 <!--<a href="javascript:;">>></a>-->
 </div>
 <!--guanyu_tit-->
 <div class="ppfzlc" style="line-height:24px;">
-<p style="text-indent: 2em;">���Ǵ�ͳ����˵�������ӣ���ҽѧ�Ͻ������� �ڡ������ڼ��׼����Ϊ����Ӧ̥���ķ�����Ϊ�������׼������ֳ���ټ�ȫ�������˺ܴ�仯���������ͨ��һϵ�б仯��ʹ��ֳ���ټ�ȫ�������鷿�⣩�ָֻ� ������״̬�����������仯Լ��42�������ɣ����ʱ���Ϊ�����ڡ������ʱ����������鷿Ҫ���飬�ӹ�Ҫ��ԭ������ĸ���ϵͳҪ�𽥻ָ���������ͨ�� �ź�����������������ٶ����Ѫ������θ�����ӡ�θ�����������䶯�ָ���ʹ���������ָ�������������򲿷ֲ���Ĳ��������¾��س�����֮����������ȫ���� ϵͳ�������Ρ����ڵ��𽥸�ԭ��ʱ�ڣ�һ��Ҫע�����ò����ڱ�������ѧ��&quot;������&quot;���Ա�֤���彡�������εĻָ���<br/><span style="text-indent: 2em;">��������������Ŀ<br/></span><strong><span style="text-indent: 2em;">ҽԺ�㻤</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;�����ר�����λ�ʿҽԺ�����㻤��<br/></span><span style="text-indent: 2em;">&#8226;Ϊ����Ҫ��׼���������ʹ���顣<br/></span><span style="text-indent: 2em;">&#8226;Ϊ��Ϊ��ĸ�����������ĸ��ι��ָ����<br/></span><span style="text-indent: 2em;">&#8226;����ר���ʹ������&nbsp;<br/></span><span style="text-indent: 2em;">��������������Ŀ<br/></span><strong><span style="text-indent: 2em;">ȫ������</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;��ס������רҵҽʦ���������ʡ�ר�����λ�ʿ��ͬ�Բ��������������н���������<br/></span><span style="text-indent: 2em;">&#8226;��ϸ�˽��¼�������ϰ�ߣ���ʳƫ�ã���������״�����ƶ����Ի�����������<br/></span><span style="text-indent: 2em;">ר������<br/></span><span style="text-indent: 2em;">&#8226;˽�˹ܼ�ȫ��ר������<br/></span><span style="text-indent: 2em;">&#8226;�����λ�ʿΪ��Ҫ�����˵Ļ����Ŷ�24Сʱר����<br/></span><strong><span style="text-indent: 2em;">��ѧ����</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;������ҽʦ���ڲ鷿�����ֲ��������������ṩҽ�Ʊ�����ѯ<br/></span><span style="text-indent: 2em;">&#8226;��ʿÿ�����й۲�������¡�������������Ѫѹ�����ء��˿ڡ���¶���ӹ����ɵ������<br/></span><span style="text-indent: 2em;">&#8226;����ÿ���˿������ָ������������������ʸ����˿ڻ�����<br/></span><span style="text-indent: 2em;">&#8226;�ӹ���Ħ�����װ�ѹ����¶�赼������ָ��Ƴ̡�<br/></span><span style="text-indent: 2em;">&#8226;ĸ��ι�������ι��������ָ�����������̼�ָ����ȷʹ���������Ĳ���������<br/></span><span style="text-indent: 2em;">&#8226;�����鷿�����������������׷��Ρ�<br/></span><span style="text-indent: 2em;">&#8226;�緢���쳣�����ר���ʹ�ҽԺ��<br/></span><strong><span style="text-indent: 2em;">����Э��</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;ÿ�������γ̰�������<br/></span><span style="text-indent: 2em;">&#8226;���ѷ��ʽӴ�����<br/></span><span style="text-indent: 2em;">&#8226;�ͲͺͲͺ����������<br/></span><span style="text-indent: 2em;"><img src="http://36x239.ganqi.net/ueditor-asp/php/../../upload/20150521/14321807706436.png"/><img src="http://36x239.ganqi.net/ueditor-asp/php/../../upload/20150521/14321808002893.png"/><img src="http://36x239.ganqi.net/ueditor-asp/php/../../upload/20150521/14321808277069.png"/><br/></span><strong><span style="text-indent: 2em;">��ҽ����</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">���д�ͳ��ҽ���������������ִ�ҽѧ������ ͨ�����Ի�����ҽ�������ƺ���ʳӪ������������Ԥ�����Ӳ��������ʪ��֫����ʹ����������ҽ�������Σ���չ���ʵ������������ʡ��������ʡ��������ʡ�Ѫ�� ���ʡ���ʢ���ʡ�̵ʪ���ʡ�Ѫ�����ʣ�������Բ�������������ȱ�顢��¶�����ȼ���������ҽ���ơ�<br/></span><span style="text-indent: 2em;">�����ڿ���<br/></span><span style="text-indent: 2em;">Ϊ�������ṩ��ҩ��ԡ�������٤���鷿��������ҽ��Ħ��������Ѭ����׿����ȴٽ����󿵸�����ɫ��Ŀ��<br/></span><strong style="text-indent: 2em;">�׶�ָ��<br/></strong><span style="text-indent: 2em;">��סʫ��ĸӤ�ڼ䣬רҵ�����ŶӾ��ĺǻ�����ͱ����ķ������棬�������������Ķȹ�һ��ʡ�ġ�ʡ�������Ӽ��ڡ���Ϊ�˳���֮���Ϊ��ĸ�������費Ϊ�չ˱�������æ���ң����ǵĻ�ʿ�� ��ÿ��Ļ������в��ϵĽ������������չ��������������������豦����ʲô����ʣ���ô��������������̻���������ô��ȷ��ι�̡����ã�����˳���Ļ��򲼡�����������Сƨ�ɡ������ǻ� �᲻���ڵ��������ר��Ϊ��������и��������������������辡��ʤ��ĸ�׵Ľ�ɫ��<br/></span><strong style="text-indent: 2em;">����ר��<br/></strong><span style="text-indent: 2em;">���������ճ����� 28���Ǵ�ĸ���ӹ��ڵ�����������Ӧ�ڣ��������ʱ����������ϵͳ�������ܷ�����δ���죬���߹��ܵ��£����µ��ڹ��ܽϲ����׸�Ⱦ��������������ϸ �ġ���ѧ�������������¸󣬴ӱ�������ĵ�һ�������������Ľ����ɳ�������������ĵ��¡���������Ŀ�����רҵ�豸����24Сʱ����ϵľ���ɱ�������� ��������ÿ���������ȫ��������רҵ�����Ŷ�Ϊÿλ�����ṩ24Сʱ��΢�������չˡ�<br/></span><span style="text-indent: 2em;"><font color="#ffc000">��ѧι��<br/></font></span><span style="text-indent: 2em;">&#8226;��ס������רҵ��Ӥʦ�Ա�����������ȫ��������<br/></span><span style="text-indent: 2em;">&#8226;Э��������Ϊ��������ĸ��ι�����ڳ���ǰ����ʵ�ִ�ĸ��ι����<br/></span><span style="text-indent: 2em;">&#8226;���ڱ�������˹�ι������ι���ı����ƶ���ѧ��ι����������ϸ��¼ι��ʱ�䣬ι�̼�����ιˮ�������������<br/></span><span style="text-indent: 2em;">&#8226;ÿ�հ�ʱ��������������������͵ȸ��ִٽ�������Ӫ������<br/></span><span style="text-indent: 2em;">&#8226;���ݱ������������ٶȺʹ�С��״����ʱ����ι������<br/></span><span style="text-indent: 2em;"><font color="#ffc000">�ճ�����<br/></font></span><span style="text-indent: 2em;">&#8226;ÿ��Ϊ���������ۡ������ǡ�������β������������������<br/></span><span style="text-indent: 2em;">&#8226;ÿ��Ϊ����ϴ�裬�������<br/></span><span style="text-indent: 2em;">&#8226;ÿ�����й۲챦�������������������������¼���£����ص����ݣ���ÿ��Ϊ������������<br/></span><span style="text-indent: 2em;">&#8226;ÿ�����й۲�Ӥ��������������Ա������ȣ����ͣ���к��������м�أ������쳣�������ʱ�ɻ���ר������רҵҽԺ����<br/></span><span style="text-indent: 2em;">&#8226;���ݱ���������״��ÿ�ܽ�����Ӿѵ�����ٽ���������������<br/></span><span style="text-indent: 2em;">&#8226;���輰ʱ����Ӥ��ֽ��㣬�۲��С����ɫ���������<br/></span><span style="text-indent: 2em;">&#8226;��ʱӦ��Ӥ�������̺��������<br/></span><span style="text-indent: 2em;">&#8226;������ҪΪ��������ָ�ס�������<br/></span><span style="text-indent: 2em;">&#8226;������ҪΪ������������ȷ��˯�ˡ�<br/></span><span style="text-indent: 2em;">&#8226;���������Ρ�ʪ��ʱ��ȡ��ȷ�Ļ�����ʩ��<br/></span><span style="text-indent: 2em;">&#8226;�ṩָ��Ʒ�Ʊ���ר������Ʒ��<br/></span><span style="text-indent: 2em;"><font color="#ffc000">Ӥ���й�<br/></font></span><span style="text-indent: 2em;">�����ᳫĸӤͬ �ң��������������Ǹո�������һ��ʱ���ڣ�������������ر���������Ҫ�������������򲻵�Ӱ������ָ�������Ӱ����֭���ڣ��������ǽ��������ڸо�ƣ��ʱ �������йܵ�רҵӤ���ң��ɻ�ʿ��������Ȼ�����������٤�����ܰ�Ħ��μ�ɳ���ʱҲ���Խ������͵�Ӥ�����йܣ����ĵ����ܷ���ʱ�⡣<br/></span><span style="text-indent: 2em;"><font color="#ffc000">�������<br/></font></span><span style="text-indent: 2em;">&#8226;����������������ѵ��ָ����������Ӥ�������٣�����Ѭ�գ���������ѵ����<br/></span><span style="text-indent: 2em;">&#8226;�����������������Ϸ��Ѹ�ٽ���ĸӤ������ϵ<br/></span><span style="text-indent: 2em;">&#8226;ָ���������Ӥ������������ĸӤ��н���&nbsp;</span></p><br/> 
+<p style="text-indent: 2em;">我们传统上所说的坐月子，在医学上叫做产褥 期。怀孕期间的准妈妈为了适应胎儿的发育及为分娩进行准备，生殖器官及全身发生了很大变化，分娩后则通过一系列变化，使生殖器官及全身（除乳房外）又恢复 到非孕状态，这种生理变化约需42天才能完成，这段时间称为产褥期。在这段时间里，产妇的乳房要泌乳，子宫要复原，身体的各个系统要逐渐恢复正常，如通过 排汗、排尿的增加来减少多余的血容量；胃酸增加。胃肠道张力及蠕动恢复，使消化能力恢复正常；不哺乳或部分哺乳的产妇可有月经回潮。总之，产褥期是全身多 系统包括体形、腹壁等逐渐复原的时期，一定要注意做好产褥期保健，科学的&quot;坐月子&quot;，以保证身体健康和体形的恢复。<br/><span style="text-indent: 2em;">新妈妈产后服务项目<br/></span><strong><span style="text-indent: 2em;">医院陪护</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;分娩后专属责任护士医院贴身陪护。<br/></span><span style="text-indent: 2em;">&#8226;为有需要的准妈妈进行无痛开乳。<br/></span><span style="text-indent: 2em;">&#8226;为初为人母的新妈妈进行母乳喂养指导。<br/></span><span style="text-indent: 2em;">&#8226;产后专车送达会所。&nbsp;<br/></span><span style="text-indent: 2em;">新妈妈产后服务项目<br/></span><strong><span style="text-indent: 2em;">全面评估</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;入住当日由专业医师、健康顾问、专属责任护士共同对产妇及新生儿进行健康评估。<br/></span><span style="text-indent: 2em;">&#8226;详细了解记录贵宾生活习惯，饮食偏好，过往身体状况，制定个性化护理方案。<br/></span><span style="text-indent: 2em;">专属服务<br/></span><span style="text-indent: 2em;">&#8226;私人管家全程专属服务。<br/></span><span style="text-indent: 2em;">&#8226;以责任护士为主要负责人的护理团队24小时专护。<br/></span><strong><span style="text-indent: 2em;">科学护理</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;妇产科医师定期查房，发现产妇疾病隐患，提供医疗保健咨询<br/></span><span style="text-indent: 2em;">&#8226;护士每日密切观察产妇体温、脉搏、呼吸、血压、体重、伤口、恶露、子宫复旧等情况。<br/></span><span style="text-indent: 2em;">&#8226;产后每日伤口消毒恢复护理—会阴护理、剖腹产伤口护理。<br/></span><span style="text-indent: 2em;">&#8226;子宫按摩、宫底按压、恶露疏导、骨盆恢复疗程。<br/></span><span style="text-indent: 2em;">&#8226;母乳喂养、混合喂养和退乳指导，辅助开奶及指导正确使用吸奶器的操作方法。<br/></span><span style="text-indent: 2em;">&#8226;产后乳房护理、哺乳期乳腺炎防治。<br/></span><span style="text-indent: 2em;">&#8226;如发生异常情况，专车送达医院。<br/></span><strong><span style="text-indent: 2em;">生活协助</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">&#8226;每日休养课程安排提醒<br/></span><span style="text-indent: 2em;">&#8226;亲友访问接待服务<br/></span><span style="text-indent: 2em;">&#8226;送餐和餐后收整服务等<br/></span><span style="text-indent: 2em;"><img src="http://36x239.ganqi.net/ueditor-asp/php/../../upload/20150521/14321807706436.png"/><img src="http://36x239.ganqi.net/ueditor-asp/php/../../upload/20150521/14321808002893.png"/><img src="http://36x239.ganqi.net/ueditor-asp/php/../../upload/20150521/14321808277069.png"/><br/></span><strong><span style="text-indent: 2em;">中医调理</span></strong><span style="text-indent: 2em;"><br/></span><span style="text-indent: 2em;">秉承传统中医月子养生理念，结合现代医学技术， 通过个性化的中医调理治疗和饮食营养调整，可以预防月子病（产后风湿、肢体疼痛），进行中医修身塑形，开展体质调理（阴虚体质、阳虚体质、气虚体质、血虚 体质、阳盛体质、痰湿体质、血瘀体质），并针对产后抑郁、产后缺乳、恶露不净等疾病予以中医治疗。<br/></span><span style="text-indent: 2em;">产褥期康复<br/></span><span style="text-indent: 2em;">为新妈妈提供中药足浴、产后瑜伽、乳房保健、中医按摩、艾草坐熏、盆底康复等促进产后康复的特色项目。<br/></span><strong style="text-indent: 2em;">幼儿指导<br/></strong><span style="text-indent: 2em;">入住诗安母婴期间，专业护理团队精心呵护妈妈和宝宝的方方面面，让妈妈轻松愉快的度过一个省心、省力的月子假期。但为了出所之后初为人母的新妈妈不为照顾宝宝而手忙脚乱，我们的护士会 在每天的护理当中不断的教新妈妈怎样照顾新生宝贝。告诉新妈妈宝宝穿什么最合适，怎么抱宝宝最舒服，教会新妈妈怎么正确的喂奶、拍嗝，怎样顺利的换尿布、护理宝宝的小屁股……我们还 会不定期的邀请儿科专家为新妈妈进行各种育儿讲座，让新妈妈尽快胜任母亲的角色。<br/></span><strong style="text-indent: 2em;">宝宝专区<br/></strong><span style="text-indent: 2em;">新生宝贝刚出生的 28天是从母亲子宫内到外界生活的适应期，由于这段时期新生儿各系统脏器功能发育尚未成熟，免疫功能低下，体温调节功能较差，因而易感染，护理起来必须细 心、科学、合理。在禧月阁，从宝宝进入的第一天起，他（她）的健康成长就是我们最关心的事。宝宝房间的空气由专业设备进行24小时不间断的净化杀菌处理， 整个房间每天进行两次全面消毒。专业护理团队为每位宝宝提供24小时无微不至的照顾。<br/></span><span style="text-indent: 2em;"><font color="#ffc000">科学喂养<br/></font></span><span style="text-indent: 2em;">&#8226;入住当日由专业育婴师对宝宝健康进行全面评估。<br/></span><span style="text-indent: 2em;">&#8226;协助新妈妈为宝宝进行母乳喂养，在出所前基本实现纯母乳喂养。<br/></span><span style="text-indent: 2em;">&#8226;对于必须进行人工喂养或混合喂养的宝宝制定科学的喂养方案，详细记录喂养时间，喂奶剂量，喂水剂量等相关数据<br/></span><span style="text-indent: 2em;">&#8226;每日按时按需给宝宝补充钙质鱼肝油等各种促进发育的营养物质<br/></span><span style="text-indent: 2em;">&#8226;根据宝宝体重增长速度和大小便状况适时调整喂养方案<br/></span><span style="text-indent: 2em;"><font color="#ffc000">日常护理<br/></font></span><span style="text-indent: 2em;">&#8226;每日为宝宝进行眼、耳、鼻、脐带和臀部的清洁与消毒护理。<br/></span><span style="text-indent: 2em;">&#8226;每日为宝宝洗澡，更换衣物。<br/></span><span style="text-indent: 2em;">&#8226;每日密切观察宝宝的生长发育情况，测量并记录体温，体重等数据，并每周为宝宝测量身长<br/></span><span style="text-indent: 2em;">&#8226;每日密切观察婴儿黄疸情况，并对宝宝发热，腹胀，腹泻等情况进行监控，发现异常情况，及时由会所专车送至专业医院治疗<br/></span><span style="text-indent: 2em;">&#8226;根据宝宝的身体状况每周进行游泳训练，促进宝宝生长发育。<br/></span><span style="text-indent: 2em;">&#8226;按需及时更换婴儿纸尿裤，观察大小便颜色排量等情况<br/></span><span style="text-indent: 2em;">&#8226;及时应对婴儿的吐奶和溢奶情况<br/></span><span style="text-indent: 2em;">&#8226;根据需要为新生儿剪指甲、理发。<br/></span><span style="text-indent: 2em;">&#8226;根据需要为新生儿调整正确的睡姿。<br/></span><span style="text-indent: 2em;">&#8226;新生儿红臀、湿疹时采取正确的护理措施。<br/></span><span style="text-indent: 2em;">&#8226;提供指定品牌宝宝专用消耗品。<br/></span><span style="text-indent: 2em;"><font color="#ffc000">婴儿托管<br/></font></span><span style="text-indent: 2em;">我们提倡母婴同 室，但月子里尤其是刚刚入所的一段时间内，新妈妈的身体特别虚弱，需要精心休养，否则不但影响身体恢复还可能影响乳汁分泌，所以我们建议妈妈在感觉疲惫时 将宝宝托管到专业婴儿室，由护士护理。当然妈妈们在做瑜伽、接受按摩或参加沙龙活动时也可以将宝宝送到婴儿室托管，安心的享受放松时光。<br/></span><span style="text-indent: 2em;"><font color="#ffc000">亲子早教<br/></font></span><span style="text-indent: 2em;">&#8226;各项早期智力开发训练指导，包括做婴儿被动操，音乐熏陶，视力跟踪训练等<br/></span><span style="text-indent: 2em;">&#8226;帮助妈妈进行亲子游戏，迅速建立母婴依恋关系<br/></span><span style="text-indent: 2em;">&#8226;指导妈妈进行婴儿抚触，增加母婴情感交流&nbsp;</span></p><br/> 
 <br class="clear" />
 </div>
 <!--ppfzlc-->
@@ -163,36 +164,36 @@ function mout(object){
 <div class="foot">
 <p>
 
-	   <a href="index_&nid=8&pnid=8.html">��վ��ҳ</a>|
+	   <a href="index.html?&nid=8&pnid=8">网站首页</a>|
 	
 	   
-	   <a href="showpage_id=1&nid=7&pnid=7.html">��˾���</a>|
+	   <a href="showpage_id?id=1&nid=7&pnid=7">公司简介</a>|
 	
 	   
-	   <a href="showpage_id=5&nid=6&pnid=6.html">���ӻ���</a>|
+	   <a href="showpage_id?id=5&nid=6&pnid=6">月子会所</a>|
 	
 	   
-	   <a href="showpage_id=9&nid=5&pnid=5.html">����ָ�</a>|
+	   <a href="showpage_id?id=9&nid=5&pnid=5">产后恢复</a>|
 	
 	   
-	   <a href="showpage_id=10&nid=4&pnid=4.html">��Ŀ��Ʒ</a>|
+	   <a href="showpage_id?id=10&nid=4&pnid=4">项目产品</a>|
 	
 	   
-	   <a href="showpage_id=6&nid=3&pnid=3.html">ʫ�����Ӳ�</a>|
+	   <a href="showpage_id?id=6&nid=3&pnid=3">诗安月子餐</a>|
 	
 	   
-	   <a href="showpage_id=4&nid=2&pnid=2.html">�˲���Ƹ</a>|
+	   <a href="showpage_id?id=4&nid=2&pnid=2">人才招聘</a>|
 	
 	   
-	   <a href="showpage_id=2&nid=1&pnid=1.html">��ϵ����</a>|
+	   <a href="showpage_id?id=2&nid=1&pnid=1">联系我们</a>|
 	
 	     
 </p>
 <div class="address">
 <span style="line-height:24px;">
- ��Ȩ���� Copyright&#169;2015 ����ܰ��ĸӤ�������޹�˾����ICP����������<br/>��ַ���Ž��п�����������129��ͬ�����ʺ���������¥1����6��<br/>��ϵ�ˣ�����ʦ &nbsp;�ֻ���18172912727<br/>����֧�֣���������
+ 版权所有 Copyright&#169;2015 揭阳市诗安母婴家政服务有限公司　粤ICP备：备案中<br/>地址：揭阳市榕城区揭丰公路鹏馨公寓<br/>联系人：刘先生 &nbsp;手机：18824661554<br/>技术支持：深圳技术
 </span>
-<!--<div class="code"><span>ɨ���ά���ע����</span><img src="/Public/Home/images/img/11.jpg" /></div>
+<!--<div class="code"><span>扫描二维码关注官网</span><img src="/Public/Home/images/img/11.jpg" /></div>
 --><!--code-->
 </div>
 <!--address-->			
@@ -214,7 +215,7 @@ return flag;
 
 var juf=IsPC();
 if(!juf)
-window.location.href="http://www.jjsagj.com/m/";//�ֻ�
+window.location.href="http://www.jjsagj.com/m/";//手机
 </script>
 
  <script type="text/javascript"> 
@@ -235,7 +236,7 @@ document.getElementById("LeftAd1").style.top=parseInt(document.getElementById("L
 Y=Y+percent;
 }
 
-EWMDIV="<div id='LeftAd1' style='width:130px;height:160px;right:8px;position:absolute;top:150px;z-index:1000'><center style='margin-top:0px;width:100%;height:30px;font-size:20px;background:#a53cd4;color:white;font-family:'΢���ź�';'>�ֻ���ά��</center><img src='erweima.png' style='width:130px;height:130px;' /></div>"
+EWMDIV="<div id='LeftAd1' style='width:130px;height:160px;right:8px;position:absolute;top:150px;z-index:1000'><center style='margin-top:0px;width:100%;height:30px;font-size:20px;background:#a53cd4;color:white;font-family:'微软雅黑';'>手机二维码</center><img src='erweima.png' style='width:130px;height:130px;' /></div>"
 document.write(EWMDIV);
 window.setInterval("heartBeat1()",1);
 </script>
