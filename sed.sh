@@ -1,0 +1,1 @@
+ls | grep .hb | sed -n  's/\(.*\)\.hb\?\(.*\)/mv "\1\.hb\?\2" "\1_\2\.html"/p' > mv.sh
