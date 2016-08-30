@@ -8,7 +8,7 @@
 	-ms-box-sizing:border-box;
 	}
 body{
-	font-size:12px;
+	font-size:14px;
 	FONT-FAMILY: Microsoft YaHei, 微软雅黑;
 	}
 ul,ol,li{
@@ -80,7 +80,7 @@ a,input,button{
 	font-style:italic;
 	font-weight:bold;
 	padding:30px 0 0 30px;
-	background:url(../images/icon.png) no-repeat 0 30px;
+	/*background:url(../images/icon.png) no-repeat 0 30px;*/
 	}
 /*tel*/
 .beian{
@@ -113,6 +113,10 @@ a,input,button{
 	text-align:center;
 	min-width:100px;
 	}
+#menu .m_li a:hover{
+	background:url(../images/01.png) no-repeat center;
+	color:#ffffff;
+	}
 #menu .m_li_a{
 	display:block;
 	float:left;
@@ -129,7 +133,60 @@ a,input,button{
 	background-size:cover;
 	min-width:100px;
 	}
-/* subbox */
+	
+.nav{float:left;}
+.nav ul li:hover{background:url(../images/01.png) no-repeat center;}
+.nav ul li ul{display: none;z-index:9;position:absolute;}
+.nav ul li:hover ul {display:block;z-index:9;position:absolute;}
+
+
+.m_li_a2{
+	display:block;
+	float:left;
+	line-height:35px;
+	text-align:center;
+	min-width:100px;
+	}
+.m_li_a2 a{
+	display:block;
+	text-align:center;
+	font-size:14px;
+	background-size:cover;
+	min-width:100px;
+	color:#6e2495;
+	}
+.m_li_a2:hover{
+	color:#ffffff;
+	}
+.m_li_a2 li:hover a{
+	display:block;
+	text-align:center;
+	height:35px;
+	background-size:cover;
+	min-width:100px;
+	color:#ffffff;
+	}
+.m_li_a2 ul:hover{
+	display:block;
+	text-align:center;
+	height:35px;
+	background-size:cover;
+	min-width:100px;
+	color:#ffffff;
+	}
+.m_li_a2 a:hover{
+	height:35px;
+	min-width:100px;
+	display:block;
+	text-align:center;
+	background-size:cover;
+	background:url(../images/01.png) no-repeat center;
+	color:#ffffff;
+	}
+
+
+
+/* subbox color:#6e2495; */
 .subbox{
 	position:absolute;
 	width:100%;
@@ -138,8 +195,9 @@ a,input,button{
 	background:rgba(165,60,212,.58);
 	*background:#a53cd4;
 	background:#a53cd4 \0;		/*IE8*/
-	z-index:999;
+	z-index:1;
 	zoom:1;
+	float:left;
 	}
 .subbox .smenu{
 	width:800px;
@@ -250,16 +308,16 @@ a,input,button{
 	background-position:10px -150px;
 	}
 .menu li a.a3{
-	background-position:10px -220px;
+	background-position:10px -350px;
 	}
 .menu li a.a4{
 	background-position:10px -282px;
 	}
 .menu li a.a5{
-	background-position:10px -350px;
+	background-position:10px -420px;
 	}
 .menu li a.a6{
-	background-position:10px -420px;
+	background-position:10px -220px;
 	}
 .menu li a.a1:hover{
 	background:white url(../images/icon.png) no-repeat -160px -90px;
@@ -268,16 +326,16 @@ a,input,button{
 	background:white url(../images/icon.png) no-repeat -160px -150px;
 	}
 .menu li a.a3:hover{
-	background:white url(../images/icon.png) no-repeat -150px -220px;
+	background:white url(../images/icon.png) no-repeat -167px -350px;
 	}
 .menu li a.a4:hover{
 	background:white url(../images/icon.png) no-repeat -150px -282px;
 	}
 .menu li a.a5:hover{
-	background:white url(../images/icon.png) no-repeat -167px -350px;
+	background:white url(../images/icon.png) no-repeat -155px -420px;
 	}
 .menu li a.a6:hover{
-	background:white url(../images/icon.png) no-repeat -155px -420px;
+	background:white url(../images/icon.png) no-repeat -150px -220px;
 	}
 /*menu*/
 .index_one{
@@ -567,8 +625,8 @@ a,input,button{
 /*myfw*/
 .news{
 	float:left;
-	width:420px;
-	margin-left:5%;
+	width:700px;
+	margin-left:10px;
 	}
 .news li{
 	margin-bottom:9px;
@@ -920,3 +978,59 @@ a,input,button{
 
 .luotong_page{width:100%;height:35px; margin:10px 0; clear:both; padding-top:15px;}
 .luotong_page a{color:#a97744;padding: 5px 6px; border: 1px solid rgb(226, 226, 226); border-images: none;}
+
+/*****************************/
+
+/*side*/
+
+.side{ width:210px; float:left; padding-right:20px;padding-bottom:20px;}
+.side_tit{ height:55px; background:url(../images/side_01.jpg) no-repeat; font-size:16px; color:#fff; font-weight:normal; padding:17px 0 0 27px; line-height:22px;}
+.side_tit em{ display:block; font-size:12px; color:#88421b; text-transform:uppercase;}
+.side_nav{}
+.side_nav li{ padding:0 30px 0 23px; height:36px; line-height:36px; margin-top:2px; -webkit-transition:all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s;  transition: all 0.3s ease 0s;}
+.side_nav li a{ display:block; font-size:14px; color:#88421b; background:url(../images/side_02b.png) right center no-repeat;}
+.side_nav li:hover,.side_nav li.side_cur{ background:#b761dc;}
+.side_nav li:hover a,.side_nav li.side_cur a{ background:url(../images/side_02.png) right center no-repeat; color:#fff;}
+
+
+
+.fn-clear { zoom:1; }
+.box_skitter { position:relative; background:none; min-width:1000px; width:100%; height:480px; margin:0 auto; overflow:hidden; z-index:0; }
+.box_skitter ul { display:none; }
+.box_skitter .container_skitter { overflow: hidden; position: relative; }
+.box_skitter .image { overflow: hidden; z-index: 1; position: absolute; }
+.box_skitter .image img { display: none; }
+.box_skitter .box_clone { position: absolute; top: 0; left: 0; width: 100px; overflow: hidden; display: none; z-index: 20; }
+.box_skitter .box_clone img { position: absolute; top: 0; left: 0; z-index: 20; }
+.box_skitter .prev_button { position: absolute; top: 50%; left: 150px; z-index: 100; width: 44px; height: 44px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(../images/prev.png) no-repeat left top ; }
+.box_skitter .next_button { position: absolute; top: 50%; right: 150px; z-index: 100; width: 44px; height: 44px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(../images/next.png) no-repeat left top ; }
+.box_skitter .label_skitter { z-index: 150; position: absolute; display: none; }
+.loading { position: absolute; top: 50%; right: 50%; z-index: 10000; margin: -16px -16px; color: #fff; text-indent: -9999em; overflow: hidden; background: url(../images/ajax-loader.gif) no-repeat left top; width: 31px; height: 31px; }
+#slideshow { width:100%; height:480px; margin:0 auto; }
+#slideshow ul { display: none; }
+#servicebanner { width: 730px; margin: 0 auto; position: relative; }
+.box_service { position: relative; background: none; }
+.box_service ul { display: none; }
+.box_service .container_skitter { overflow: hidden; position: relative; }
+.box_service .image { overflow: hidden; }
+.box_service .image img { display: none; }
+.box_service .box_clone { position: absolute; top: 0; left: 0; width: 100px; overflow: hidden; display: none; z-index: 20; }
+.box_service .box_clone img { position: absolute; top: 0; left: 0; z-index: 20; }
+.box_service .prev_button { position: absolute; top: 50%; left: 10px; z-index: 100; width: 44px; height: 44px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(../images/prev.png) no-repeat left top !important; }
+.box_service .next_button { position: absolute; top: 50%; right: 10px; z-index: 100; width: 44px; height: 44px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(../images/next.png) no-repeat left top !important; }
+.box_service .label_skitter { z-index: 150; position: absolute; display: none; }
+#service_slideshow { width: 730px; height: 400px; margin: 0 auto; }
+#service_slideshow ul { display: none; }
+#newsbanner2 { width: 296px; margin: 0 auto; position: relative; }
+.box_news { position: relative; background: none; }
+.box_news ul { display: none; }
+.box_news .container_skitter { overflow: hidden; position: relative; }
+.box_news .image { overflow: hidden; }
+.box_news .image img { display: none; }
+.box_news .box_clone { position: absolute; top: 0; left: 0; width: 100px; overflow: hidden; display: none; z-index: 20; }
+.box_news .box_clone img { position: absolute; top: 0; left: 0; z-index: 20; }
+.box_news .prev_button { position: absolute; top: 50%; left: 10px; z-index: 100; width: 28px; height: 28px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(../images/news/prev.png) no-repeat left top !important; }
+.box_news .next_button { position: absolute; top: 50%; right: 10px; z-index: 100; width: 28px; height: 28px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(../images/news/next.png) no-repeat left top !important; }
+.box_news .label_skitter { z-index: 150; position: absolute; display: none; }
+#news_slideshow { width: 296px; height: 150px; margin: 0 auto; }
+#news_slideshow ul { display: none; }
